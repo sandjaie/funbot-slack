@@ -2,7 +2,7 @@ const slackBot = require('slackbots');
 const axios = require('axios');
 
 const jbot = new slackBot ({
-    token: 'xoxb-307801556068-595528046402-p1rrHm6ij9rwMG0SBbmXSBS3', //get it from https://api.slack.com/apps oauth
+    token: 'xoxb-307801556068-595528046402-T3J8BBFFZz3tCyHaAfOj7M2L', //get it from https://api.slack.com/apps oauth
     name: 'jokebot-slack'
 })
 
