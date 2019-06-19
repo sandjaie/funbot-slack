@@ -1,8 +1,9 @@
 const slackBot = require('slackbots');
 const axios = require('axios');
+require('dotenv').config();
 
 const jbot = new slackBot ({
-    token: 'xoxb-307801556068-595528046402-T3J8BBFFZz3tCyHaAfOj7M2L', //get it from https://api.slack.com/apps oauth
+    token: process.env.GITHUB_API_TOKEN, //get it from https://api.slack.com/apps oauth
     name: 'jokebot-slack'
 })
 
